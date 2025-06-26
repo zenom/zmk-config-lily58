@@ -44,21 +44,21 @@
             label = "CTLWL";
         };
 
-        backtick_left: backtick_left {
+        backtick_lft: backtick_left {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp GRAVE &kp LEFT>;
             label = "BACKTICK_LEFT";
         };
 
-        backtick_down: backtick_down {
+        backtick_dwn: backtick_down {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp GRAVE &kp DOWN>;
             label = "BACKTICK_DOWN";
         };
 
-        backtick_right: backtick_right {
+        backtick_rght: backtick_right {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp GRAVE &kp DOWN>;
@@ -108,11 +108,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp F1  &kp F2              &kp F3               &kp F4          &kp F5           &kp F6                    &kp F7          &kp F8          &kp F9        &kp F10          &kp F11        &kp F12
-&trans  &trans              &trans               &trans          &trans           &trans                    &ctlwh          &ctlwj          &ctlwk        &ctlwl           &trans         &trans
-&trans  &kp LS(LEFT_BRACE)  &kp LS(RIGHT_BRACE)  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans                    &kp H           &kp J           &kp K         &kp L            &kp LS(MINUS)  &trans
-&trans  &trans              &trans               &trans          &trans           &trans  &trans    &trans  &backtick_left  &backtick_down  &backtick_up  &backtick_right  &kp SLASH      &trans
-                                                 &trans          &trans           &trans  &trans    &trans  &trans          &trans          &trans
+&kp F1  &kp F2              &kp F3               &kp F4          &kp F5           &kp F6                    &kp F7         &kp F8         &kp F9        &kp F10         &kp F11        &kp F12
+&trans  &trans              &trans               &trans          &trans           &trans                    &ctlwh         &ctlwj         &ctlwk        &ctlwl          &trans         &trans
+&trans  &kp LS(LEFT_BRACE)  &kp LS(RIGHT_BRACE)  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans                    &kp H          &kp J          &kp K         &kp L           &kp LS(MINUS)  &trans
+&trans  &trans              &trans               &trans          &trans           &trans  &trans    &trans  &backtick_lft  &backtick_dwn  &backtick_up  &backtick_rght  &kp SLASH      &trans
+                                                 &trans          &trans           &trans  &trans    &trans  &trans         &trans         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
