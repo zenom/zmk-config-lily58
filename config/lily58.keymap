@@ -24,6 +24,27 @@
             bindings = <&kp LC(W) &kp H>;
             label = "CTRLW_H";
         };
+
+        ctlwj: ctlwj {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(W) &kp J>;
+            label = "CTLWJ";
+        };
+
+        ctlwk: ctlwk {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(W) &kp K>;
+            label = "CTLWK";
+        };
+
+        ctlwl: ctlwl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(W) &kp L>;
+            label = "CTLWL";
+        };
     };
 
     keymap {
