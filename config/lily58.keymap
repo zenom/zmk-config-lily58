@@ -17,6 +17,15 @@
 #define extra_layer 4
 
 / {
+    macros {
+        ctlwh: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(W) &kp H>;
+            label = "CTRLW_H";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
