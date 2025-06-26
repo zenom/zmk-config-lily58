@@ -43,34 +43,6 @@
             bindings = <&kp LC(W) &kp L>;
             label = "CTLWL";
         };
-
-        backtick_lft: backtick_left {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp GRAVE &kp LEFT>;
-            label = "BACKTICK_LEFT";
-        };
-
-        backtick_dwn: backtick_down {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp GRAVE &kp DOWN>;
-            label = "BACKTICK_DOWN";
-        };
-
-        backtick_rght: backtick_right {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp GRAVE &kp DOWN>;
-            label = "BACKTICK_RIGHT";
-        };
-
-        backtick_up: backtick_down {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp GRAVE &kp UP_ARROW>;
-            label = "BACKTICK_DOWN";
-        };
     };
 
     keymap {
