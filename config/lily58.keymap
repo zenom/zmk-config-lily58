@@ -110,7 +110,7 @@
             bindings = <
 &kp F1  &kp F2              &kp F3               &kp F4          &kp F5           &kp F6                    &kp F7          &kp F8          &kp F9        &kp F10          &kp F11        &kp F12
 &trans  &trans              &trans               &trans          &trans           &trans                    &ctlwh          &ctlwj          &ctlwk        &ctlwl           &trans         &trans
-&trans  &kp LS(LEFT_BRACE)  &kp LS(RIGHT_BRACE)  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans                    &kp H           &kp J           &kp K         &kp L            &kp LS(MINUS)  &trans
+&trans  &kp LS(LEFT_BRACE)  &kp LS(RIGHT_BRACE)  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans                    &kp LEFT        &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT        &kp LS(MINUS)  &trans
 &trans  &trans              &trans               &trans          &trans           &trans  &trans    &trans  &backtick_left  &backtick_down  &backtick_up  &backtick_right  &kp SLASH      &trans
                                                  &trans          &trans           &trans  &trans    &trans  &trans          &trans          &trans
             >;
